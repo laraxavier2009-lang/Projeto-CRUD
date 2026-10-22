@@ -3,7 +3,7 @@ import CRUD
 def exibir_menu():
     print("\n" + "="*30)
     print("  GESTÃO DE ESTOQUE TECH")
-    print("\n"*30)
+    print("="*30)
     print("1. Cadastrar produto")
     print("2. Listar produto")
     print("3. Deletar produto")
@@ -38,7 +38,7 @@ def main():
                 print("-" * 30)
             
          else:
-           print("\nNenhum produto encontardo no estoque.")
+             print("\nNenhum produto encontardo no estoque.")
 
 
       elif opçao == "3":
